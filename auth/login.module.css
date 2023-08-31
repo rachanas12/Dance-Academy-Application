@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing:  border-box;
+}
+.page{
+    height: 770px;width: 100%;
+    background-image: url("../assets/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;align-items:center;
+}
+.login fieldset{
+    width:450px;height:auto;margin:auto;color: white;
+    text-align: center;background-color: rgba(128, 128, 128, 0.377);padding: 20px;border-radius: 20px;
+}
+.login fieldset label{
+    font-size: 2.5ch;
+}
+.login fieldset input{
+    border-radius: 5px;height: 25px;background-color: rgba(180, 179, 179, 0.801);
+}
+.login legend{
+    font-size: 4ch;color: chartreuse;
+}
+.checkbox{
+    height: 6px;width: 15px;position: relative;top: 5px;right: 5px;
+}
+.login button{
+    width: 100px;height: 30px;border-radius: 10px;background-color: yellow;font-size: 2ch;font-weight: 600;
+}
+.login button:hover{
+    opacity: 0.5;cursor: pointer;
+}
+.add p{
+   font-size: 2ch; 
+}
+.add h4{
+    font-size: 2.5ch; color: rgb(19, 241, 19);cursor: pointer;
+ }

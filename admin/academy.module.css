@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.updateform{
+    width: 500px;
+    height: auto;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.updateform label{
+    font-size: 2.7ch;
+}
+.updateform input{
+    font-size: 2ch;border-radius: 10px;padding: 5px;
+}
+.updateform button{
+    width: 150px;height: 40px;border-radius: 10px;background-color: yellow;font-size: 2ch;font-weight: bold;
+
+}
+.updateform button:hover{
+cursor: pointer;   border-radius: 20px;
+opacity: 0.5;}
+.updateform h1{
+    color:greenyellow;font-weight: bold;padding-top: 10px;padding-bottom: 20px;
+}
+.academy table{
+    width: 100%;height: auto;
+    border: 1px solid black;
+}
+.academy table tr th{
+    background-color: rgb(164, 97, 228);padding: 5px;
+    height: 25px;border: 1px solid black;font-size: 2ch;
+}
+.table1 td{
+    width: auto;height: 10px;border: 1px solid black;padding: 10px;
+}
+.table1 button{
+    width: 100px;height: 30px;background-color: aqua;border-radius: 10px;
+}
+.table1 button:hover{
+    opacity: 0.5;cursor: pointer;border-radius: 20px;
+}
+.academy h1{
+    color:red;text-decoration: underline;
+}

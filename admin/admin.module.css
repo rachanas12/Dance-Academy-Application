@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing:  border-box;
+}
+.page{
+    height: 650px;width: 100%;
+    background-image: url("../assets/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;align-items:center;
+}
+.signup{
+    width:auto;height:auto;margin:auto;color: white;
+    text-align: center;background-color: rgba(128, 128, 128, 0.849);padding: 20px;border-radius: 20px;
+}
+.gender{
+    display: flex;font-size: 2ch
+}
+.delete{
+    width: 100px;height: 30px;margin-bottom: 15px;background-color: tomato;border-radius: 10px;
+}
+.delete:hover{
+    opacity: 0.4;cursor: pointer;border-radius: 20px;
+}
+.gender h2{
+    padding-left: 40px;color: rgb(73, 252, 252);
+}
+.gender h4{
+    padding-left: 30px;width: auto;
+}
+.login fieldset label{
+    font-size: 2ch;
+    padding-right: 10px;
+}
+.login fieldset input{
+    border-radius: 5px;height: 25px;background-color: rgba(180, 179, 179, 0.801);
+}
+.login legend{
+    font-size: 4ch;color: chartreuse;
+}
+.checkbox{
+    height: 6px;width: 15px;position: relative;top: 5px;right: 5px;
+}
+.login button{
+    width: 100px;height: 30px;border-radius: 10px;background-color: yellow;font-size: 2ch;font-weight: 600;
+}
+.login button:hover{
+    opacity: 0.5;cursor: pointer;
+}
+.add p{
+   font-size: 2ch; 
+}
+.add h4{
+    font-size: 2.5ch; color: rgb(19, 241, 19);cursor: pointer;
+ }
+
+ /* adminpage */
+
+ .admin{width: 100%;
+    background-color: pink;
+    height: auto;
+    display: flex;
+    justify-content: space-between;padding: 10px;
+    align-items: flex-start;text-align: center;
+ }
+ .admindashboard{
+    width: 450px;
+    height: auto;
+background-color: rgb(162, 172, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ 
+ .admindashboard div ul li{
+    list-style-type: none;
+    height: 30px;
+    font-size: 3ch;
+    cursor: pointer;
+ }
+ .admindashboard div hr{
+    height: 3px;
+ }
+ .admindashboard div h1{
+    font-size: 4ch;color: rgb(247, 8, 8);
+    height: 50px;font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;text-align: center;
+ }
+ .checkbox{
+    height: 6px;width: 20px;position: relative;top: 8px;right: 10px;font-size: 5ch;
+}
+.addmanager{width:450px;height:auto;margin:auto;color: white;border: 1px solid white;
+    text-align: center;background-color: rgba(44, 43, 43, 0.753);padding: 20px;border-radius: 20px;
+    
+}
+.admincontent{
+    width:100%;height:600px;display: flex;justify-content: center;
+    
+    align-items: flex-start;padding-top: 10px;
+}
+.addmanager input{
+    height: 30px;border-radius: 10px;font-size: 2ch;padding: 15px;
+}
+.addmanager label{
+    font-size: 2.7ch;position: relative;right: 10px;
+}
+.addmanager h1{
+    color: rgb(21, 230, 21);
+}
+#gender1{
+    position: relative;
+    right: 100px;
+}
+.addmanager button{
+    width: 200px;height: 40px;border-radius: 10px;font-size: 2.6ch;background-color: yellow;cursor: pointer;
+}
+.mainnav{
+    width: 100%;height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;column-gap: 30px;row-gap: 20px;
+}
+.maindiv{
+    height: auto;width: auto;
+    border: 2px solid black;background-color: rgb(51, 51, 51);color: white;
+    padding: 3px;
+}
+.maindiv div img{
+    width: 100%;height: 150px;padding-top: 10px;
+}
+.maindiv div h1{
+    padding-top: 5px;
+}
+.maindiv div p{
+font-size: 2ch;
+}
+.maindiv div{width: 100%;
+}
+.maindiv div button{
+    padding: 10px;text-align: center;
+    width: auto;height: 40px;
+    background-color: yellow;margin: 2px;font-size: 2ch;font-weight: bold;border-radius: 5px;
+}
+.maindiv div button:hover{
+    border-radius: 10px;cursor: pointer;opacity: 0.5;
+}

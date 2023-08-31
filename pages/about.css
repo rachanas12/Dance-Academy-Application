@@ -1,0 +1,52 @@
+.page{
+    background-color: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  }
+  #contactdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+  }
+  #c-h1{font-size: 6ch;text-align: center;text-decoration: underline;color: rgb(216, 252, 14);
+  height: 50px;}
+  .c-formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  width: 300px;
+  }
+  .c-formdiv p{font-size: 3ch;color: rgba(9, 233, 121, 0.966);text-decoration: underline;font-weight: 600;}
+  .c-formdiv input{
+    border-radius: 10px;
+    height: 30px;padding: 10px;font-size: 2ch;font-weight: 600;color: black;background-color: rgb(192, 226, 240)
+  }
+  .c-formdiv textarea{border-radius: 10px;padding: 10px;font-size: 2.7ch;font-weight: 600;color: black;
+    background-color: rgb(189, 222, 235)}
+  .c-formdiv button{
+    border-radius: 10px;
+    height: 40px;padding: 10px;font-size: 2ch;font-weight: 600;color: black;text-align: center;
+    background-color: yellow;cursor: pointer;
+  }
+  .c-formdiv button:hover{opacity: 0.5;}
+  
+  #ctdiv{
+  width: 400px;
+  height: 200px;
+  }
+  #ctdiv h1{font-size:5ch;color:rgba(9, 233, 121, 0.966) ;text-decoration: underline;}
+  #ctdiv p{font-size: 2.5ch; color:rgb(247, 81, 150) ;}
+  #ctdiv a{font-size: 2.8ch;color: deepskyblue; padding: 5px; text-decoration: none;}
+  #ctdiv div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    font-size: 3.3ch;
+  }
+  
